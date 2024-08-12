@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-18T17:38:21 IST" name="Suite" finished-at="2023-08-18T17:40:09 IST" duration-ms="108954">
+    <groups>
+    </groups>
+    <test started-at="2023-08-18T17:38:21 IST" name="test1" finished-at="2023-08-18T17:39:02 IST" duration-ms="41358">
+      <class name="demo.Amazon">
+        <test-method signature="search(java.util.HashMap)[pri:0, instance:demo.Amazon@304bb45b]" started-at="2023-08-18T17:38:21 IST" name="search" data-provider="getValues" finished-at="2023-08-18T17:38:41 IST" duration-ms="20458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Shravank, searchText=earphones, brandName=OnePlus Bullets Z2 Bluetooth Wireless, email=bshravankumar234@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.Amazon@304bb45b]" started-at="2023-08-18T17:38:41 IST" name="tearDown" finished-at="2023-08-18T17:38:41 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="search(java.util.HashMap)[pri:0, instance:demo.Amazon@304bb45b]" started-at="2023-08-18T17:38:41 IST" name="search" data-provider="getValues" finished-at="2023-08-18T17:39:02 IST" duration-ms="20197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Shravank, searchText=mobiles, brandName=Redmi 11 Prime, email=bshravankumar234@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.Amazon@304bb45b]" started-at="2023-08-18T17:39:02 IST" name="tearDown" finished-at="2023-08-18T17:39:02 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demo.Amazon -->
+    </test> <!-- test1 -->
+    <test started-at="2023-08-18T17:39:02 IST" name="test2" finished-at="2023-08-18T17:39:09 IST" duration-ms="6472">
+      <class name="demo.ErrorValidation">
+        <test-method signature="search()[pri:0, instance:demo.ErrorValidation@4b520ea8]" started-at="2023-08-18T17:39:02 IST" name="search" finished-at="2023-08-18T17:39:08 IST" duration-ms="6239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.ErrorValidation@4b520ea8]" started-at="2023-08-18T17:39:08 IST" name="tearDown" finished-at="2023-08-18T17:39:09 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demo.ErrorValidation -->
+    </test> <!-- test2 -->
+    <test started-at="2023-08-18T17:39:09 IST" name="test3" finished-at="2023-08-18T17:40:09 IST" duration-ms="60909">
+      <class name="demo.Amazon2">
+        <test-method signature="search(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.Amazon2@782859e]" started-at="2023-08-18T17:39:09 IST" name="search" data-provider="getData" finished-at="2023-08-18T17:39:29 IST" duration-ms="19589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bshravankumar234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shravank]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mobiles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OnePlus Nord CE 3 Lite 5G]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.Amazon2@782859e]" started-at="2023-08-18T17:39:29 IST" name="tearDown" finished-at="2023-08-18T17:39:29 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="search(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.Amazon2@782859e]" started-at="2023-08-18T17:39:29 IST" name="search" data-provider="getData" finished-at="2023-08-18T17:39:48 IST" duration-ms="19400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bshravankumar234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shravank]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[earphones]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OnePlus Bullets Z2 Bluetooth Wireless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.Amazon2@782859e]" started-at="2023-08-18T17:39:48 IST" name="tearDown" finished-at="2023-08-18T17:39:48 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="search(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.Amazon2@782859e]" started-at="2023-08-18T17:39:48 IST" name="search" data-provider="getData" finished-at="2023-08-18T17:40:09 IST" duration-ms="20676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bshravankumar234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shravank]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[laptop]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[HP Laptop 15s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.Amazon2@782859e]" started-at="2023-08-18T17:40:09 IST" name="tearDown" finished-at="2023-08-18T17:40:09 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demo.Amazon2 -->
+    </test> <!-- test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
