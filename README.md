@@ -61,10 +61,10 @@ Amazon_Testing/
 
 | Testing Type | Count |
 |-------------|-------|
-| Manual Test Cases | 50+ |
-| Automated Test Scripts | 15+ |
+| Manual Test Cases | 10+ |
+| Automated Test Scripts | 8+ |
 | Modules Covered | 5 |
-| Defects Reported | 20+ |
+| Defects Reported | 2+ |
 
 ---
 
