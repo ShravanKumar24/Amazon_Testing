@@ -1,4 +1,4 @@
 # Stronger Java priority
-* linguist-vendored=false
-*.java linguist-detectable=true
-*.java linguist-language=Java
+ linguist-vendored=false
+.java linguist-detectable=true
+.java linguist-language=Java
